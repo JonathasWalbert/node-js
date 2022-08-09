@@ -1,3 +1,5 @@
-console.log("Olá mundo");
+const app = require("./src/config/custom-express");
 
-console.log ("Pós Graduação");
+app.listen(3000,function(){
+  console.log("servidor rodando");
+});
